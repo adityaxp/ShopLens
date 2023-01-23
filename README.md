@@ -9,3 +9,4 @@ Shoplens also provides store owners with an intuitive user interface where they 
 
 # App screenshots
 
+<img src="Images/image1.jpeg" width="180" height= "320"> <img src="Images/image2.jpeg" width="180" height= "320"> <img src="Images/image3.jpeg" width="180" height= "320"><img src="Images/image4.jpeg" width="180" height= "320" > <img src="Images/image5.jpeg" width="180" height= "320"> <img src="Images/image6.jpeg" width="180" height= "320"> <img src="Images/image7.jpeg" width="180" height= "320">
