@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "419998210483",
+    "project_id": "shoplens-27c0d",
+    "storage_bucket": "shoplens-27c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419998210483:android:d8dda4bddc07e2c405d3c6",
+        "android_client_info": {
+          "package_name": "com.aditya.shoplens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419998210483-f5ogmeotdq54kvtffc8f0vbce97niuo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYsNMz8C9SbEbfZ2Hgjdmg0O_pvUiAneQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419998210483-f5ogmeotdq54kvtffc8f0vbce97niuo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

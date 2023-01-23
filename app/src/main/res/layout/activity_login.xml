@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/logo"
+        android:src="@drawable/shoplenslogo"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"
+        android:id="@+id/emailEditText"
+        android:drawableStart="@drawable/custom_email_icon"
+        android:drawablePadding="10dp"
+        android:background="@drawable/custom_input_rectangle"
+        android:padding="10dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditText"
+        android:layout_alignStart="@id/emailEditText"
+        android:layout_marginTop="30dp"
+        app:passwordToggleEnabled="true"
+        app:hintEnabled="false"
+        app:passwordToggleTint="@android:color/darker_gray">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input_rectangle"
+            android:padding="12dp"
+            android:hint="Password"
+            android:drawableStart="@drawable/custom_lock_icon"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_alignStart="@id/passwordEditText"
+        android:layout_marginTop="20dp"
+        android:text="Log In"
+        android:id="@+id/loginButton"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button"
+        />
+    <TextView
+        android:id="@+id/newUserTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/loginButton"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="10dp"
+        android:text="Not a member?" />
+
+    <TextView
+        android:id="@+id/signUpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newUserTextView"
+        android:layout_alignBottom="@+id/newUserTextView"
+        android:layout_toEndOf="@+id/newUserTextView"
+        android:text=" Sign Up"
+        android:textColor="@android:color/holo_blue_light" />
+
+
+</RelativeLayout>
