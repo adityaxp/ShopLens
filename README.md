@@ -5,7 +5,7 @@ Shoplens also provides store owners with an intuitive user interface where they 
 
 <hr>
 
-#### Project status: In devlopment phase
+
 
 # App screenshots
 
