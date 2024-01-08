@@ -18,5 +18,4 @@ Shoplens also provides store owners with an intuitive user interface where they 
 <img src="Images/image11.png" width="200"> <img src="Images/image10.png" height= "250"> 
 <img src="Images/image9.png" width="200"> <img src="Images/image12.png"  height= "250">
 
-
 <hr>
